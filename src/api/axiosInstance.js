@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8008/api';
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD
+    ? 'https://smartlms-backend-2miu.onrender.com/api'
+    : 'http://localhost:8008/api');
 
 // Base backend URL without trailing '/api'
 export const BACKEND_SERVER_URL = API_BASE_URL.replace(/\/api\/?$/, '');

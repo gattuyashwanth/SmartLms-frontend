@@ -24,7 +24,7 @@ When deploying on **Vercel**, set this in **Project Settings** → **Environment
 
 | Variable | Example Value | Description |
 | :--- | :--- | :--- |
-| `VITE_API_BASE_URL` | `https://smartlms-backend.onrender.com/api` | Render backend URL + `/api` |
+| `VITE_API_BASE_URL` | `https://smartlms-backend-2miu.onrender.com/api` | Render backend URL + `/api` |
 
 ---
 
